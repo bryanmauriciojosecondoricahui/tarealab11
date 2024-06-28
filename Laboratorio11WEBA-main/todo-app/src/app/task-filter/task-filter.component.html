@@ -1,0 +1,14 @@
+<!-- task-filter.component.html -->
+
+<div>
+    <label>
+      <input type="radio" name="filter" (change)="setFilter('all')"> Todas
+    </label>
+    <label>
+      <input type="radio" name="filter" (change)="setFilter('completed')"> Completadas
+    </label>
+    <label>
+      <input type="radio" name="filter" (change)="setFilter('not-completed')"> No completadas
+    </label>
+  </div>
+  
